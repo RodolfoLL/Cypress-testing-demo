@@ -1,0 +1,19 @@
+.container{
+    background-color:#808080;
+}
+
+.title{
+    font-family: Arial;
+}
+.myButton{
+    padding: 5px;
+    border-radius: 3px;
+}
+.myButton:hover{
+    background-color:cadetblue;
+    color: white;
+}
+.categories{
+    font-family: Arial;
+    font-size: 1.5rem;
+}

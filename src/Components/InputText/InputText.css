@@ -1,0 +1,13 @@
+.input{
+    display:flex;
+    flex-direction: column;
+}
+.myLabel{
+    font-family: Arial;
+    font-size: 1.3rem;
+}
+.myInput{
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+}
