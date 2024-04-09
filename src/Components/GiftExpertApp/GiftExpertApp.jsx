@@ -6,7 +6,7 @@ export const GiftExpertApp = () => {
   const [categories, setCategories] = useState([]);
   const onAddCategory = (newCategory) => {
     if (categories.includes(newCategory)) return;
-    setCategories([...categories, newCategory]);
+    setCategories([newCategory,...categories]);
   };
   //en las props se puede mandar datos,primitivos,objetos como tambien funciones
   return (
